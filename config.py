@@ -24,9 +24,6 @@ LOGGER_ID = int(getenv("LOGGER_ID", None))
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5734902794))
 
-#mustjoin
-MUST_JOIN = getenv("MUST_JOIN", "elzStore_id")
-
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
